@@ -57,8 +57,10 @@ report.
 All workflow information is contained in the Reproduce.R script. The general steps
 are:
 
-1. Run data_1.R
-2. Run data_2.R
-3. Run data_3.R
-4. Run data_4.R
+1. Exploratory Data Analysis
+2. Data processing 
+3. Single cell RNA data cluster
+4. Spot data cluster
+
+Then all the pictures in my slides and report are reproduced.
 5. Run Reproduce.R. Then all the pictures in my slides and report are reproduced.
