@@ -160,7 +160,7 @@ plot_ly(z = as.matrix(st_varible), zmax= 100 ,zmin=0, colorscale = colz2, type =
 ```{r, echo=FALSE, fig.cap='Heatmap of ST data', out.width = '50%', fig.align='center'}
 knitr::include_graphics("pic/st_heat_500.png")
 ```
-From the heatmap of both data sets we know that there are heterogeneity between different cells and spots, and the data are suitable foe clustering.
+From the heatmap of both data sets we know that there are heterogeneity between different cells and spots, and the data are suitable for clustering.
 
 #### Kmeans Cluster
 I use the most variable 500 genes as features to perform Kmeans cluster with cells and spots.
